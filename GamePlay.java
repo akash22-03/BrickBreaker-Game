@@ -13,18 +13,18 @@ import javax.swing.JPanel;
 
 public class GamePlay extends JPanel implements KeyListener, ActionListener
 {
-	private boolean play = false;
-	private int score = 0;
-	private int brickCount = 21;
-	private Timer timer ;
-	private int delay = 1;
-	private int playerX = 310;
-	private int ballposX = 120;
-	private int ballposY = 350;
-	private int ballXdir = -1;
-	private int ballYdir = -2;
+	boolean play = false;
+  	int score = 0;
+	int brickCount = 21;
+	Timer timer ;
+	int delay = 1;
+	int playerX = 310;
+	int ballposX = 120;
+	int ballposY = 350;
+	int ballXdir = -1;
+	int ballYdir = -2;
 	
-	private MapGenerator map;
+	MapGenerator map;
 	
 	public GamePlay()
 	{
